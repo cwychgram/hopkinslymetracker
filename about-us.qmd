@@ -1,0 +1,10 @@
+---
+pagetitle: "About | Johns Hopkins Lyme and Tickborne Diseases Dashboard"
+title-prefix: ""
+---
+
+About this site
+
+```{r}
+1 + 1
+```

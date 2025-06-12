@@ -3,12 +3,40 @@ project:
   output-dir: docs
 
 website:
-  title: "hopkinslymetracker"
+  title: "Johns Hopkins Lyme and Tickborne Diseases Dashboard"
+  search: false
+  favicon: images/favicon.ico
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    logo: images/BSPH.logo.rgb_horizontal.white.png
+    href: https://publichealth.jhu.edu/
+    right:
+      - text: Home
+        href: index.qmd
+      - text: About Us
+        href: about-us.qmd
+      - text: Geography, Ticks & You
+        href: geography-ticks-and-you.qmd
+      - text: Interactive Maps
+        menu:
+          - text: Lyme Disease Tracker
+            href: lyme-disease-tracker.qmd
+          - text: Data Explorer
+            href: data-explorer.qmd
+          - text: Research Atlas
+            href: research-atlas.qmd
+      - text: News & Resources
+        href: news-and-resources.qmd
+  page-footer:
+    left: |
+      [![](images/JHU.logo_horizontal.white.png)](https://www.jhu.edu/)
+    center: |
+      <span>Johns Hopkins Lyme and Tickborne Diseases Dashboard</span>
+      <span>[ {{< bi envelope >}} ](mailto:SSPHC@jhu.edu)</span>
+    right: 
+      - text: "Web Policies"
+        href: https://publichealth.jhu.edu/web-policies
+        target: _blank
+
 
 format:
   html:
@@ -16,7 +44,7 @@ format:
       - cosmo
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 

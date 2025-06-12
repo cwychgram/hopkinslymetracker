@@ -1,1 +1,610 @@
-/* css styles */
+@import url("https://use.typekit.net/ftn5sdd.css");
+
+:root {
+  --chantilly-lace: #f4f6f1; 
+  --dark-calypso-green: #003a2f; 
+  --calypso-green: #005a48; 
+  --bud-green: #a6e4b5; 
+  --light-bud-green: #e4f7e9; 
+  --lightest-bud-green: #edfaf0; 
+  --appalachian-trail: #b5cbbf;
+  --emerald-vapor: #e3eee8; 
+  --cyan: #00FFFF;
+  --bunny-nose-pink: #edcde5;
+  --pineapple-grove: #faea9d;
+  --glowing-apricot: #f3cf9b;
+  --morning-glory: #b7ddea;
+}
+
+body:not(h1,h2) {
+  font-family: "proxima-nova", sans-serif;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+h1 {
+  font-family: "factoria", sans-serif;
+  font-size: calc(1.8rem + 2vw);
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "factoria", sans-serif;
+  font-size: calc(1.8rem + .75vw);
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+  border: none;
+}
+
+h3 {
+  font-size: calc(1.8rem + .5vw);
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#quarto-content {
+  background-color: var(--chantilly-lace);
+}
+
+#quarto-content>* {
+  padding-top: 0;
+}
+
+.grid {
+  gap: 1.8rem;
+}
+
+.g-col-sm-12 {
+  grid-column: auto/span 12;
+}
+
+.g-col-sm-0 {
+  grid-column: auto/span 0;
+}
+
+.container {
+  --bs-gutter-x: 1.8rem;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--calypso-green);
+}
+
+.navbar-logo {
+  max-height: 10rem;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.navbar .nav-link {
+  color: var(--chantilly-lace);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+  color: var(--bud-green);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: var(--bud-green);
+}
+
+.dropdown-menu .dropdown-item {
+  font-size: 1.8rem;
+  color: var(--dark-calypso-green);
+  text-transform: uppercase;
+  background-color: var(--chantilly-lace);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: var(--emerald-vapor);
+}
+
+.navbar-toggler-icon {
+  width: 1.8rem;
+  height: 1.8em;
+  background-image: url(images/navbar-toggler-white.svg);
+}
+
+.navbar-toggler-icon:hover {
+  background-image: url(images/navbar-toggler-green.svg);
+}
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  --bs-navbar-color: transparent;
+}
+
+/* footer */
+
+.nav-footer {
+  color: var(--chantilly-lace);
+  font-size: 1.8rem;
+  background-color: var(--calypso-green);
+}
+
+.nav-footer a {
+  color: var(--chantilly-lace);
+}
+
+.nav-footer a:hover {
+  color: var(--bud-green);
+}
+
+.nav-footer .img-fluid {
+  height: 10rem;
+}
+
+.nav-footer span {
+  display: block;
+}
+
+.bi-envelope {
+  font-size: 1.8rem;Welcome to the Johns Hopkins
+Lyme and Tickborne Diseases
+Dashboard
+}
+
+/* home */
+
+#home-hero {
+  text-align: center;
+  background-color: var(--dark-calypso-green);
+  background-image: radial-gradient(circle, transparent, var(--dark-calypso-green)),
+  url(images/tick-outline-100x100.svg);
+  background-repeat: space;
+}
+
+#home-hero h1 span {
+  color: var(--chantilly-lace);
+  display: block;
+}
+
+#home-hero h3 {
+  color: var(--chantilly-lace);
+}
+
+#story-btn {
+  border: .2rem solid var(--chantilly-lace);
+  width: fit-content;
+  margin: auto;
+  padding: .9rem .9rem;
+  display: block;
+  margin-bottom: 1.8rem;
+}
+
+#story-btn:hover {
+  cursor: pointer;
+  box-shadow: -.2rem .2rem 0 var(--bud-green);
+}
+
+#story-btn a {
+  color: var(--chantilly-lace);
+  text-decoration: none;
+}
+
+#care-btn {
+  border: .2rem solid var(--chantilly-lace);
+  width: fit-content;
+  margin: auto;
+  padding: .9rem .9rem;
+  display: inline-block;
+  margin-bottom: 1.8rem;
+  margin-right: 1.8rem;
+}
+
+@media only screen and (max-width: 480px) {
+  #care-btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 1.8rem;
+  }
+  #risk-btn {
+    display: block;
+  }
+}
+
+#care-btn:hover {
+  cursor: pointer;
+  box-shadow: -.2rem .2rem 0 var(--bud-green);
+}
+
+#care-btn a {
+  color: var(--chantilly-lace);
+  text-decoration: none;
+}
+
+#risk-btn {
+  border: .2rem solid var(--chantilly-lace);
+  width: fit-content;
+  margin: auto;
+  padding: .9rem .9rem;
+  display: inline-block;
+  margin-bottom: 1.8rem;
+}
+
+#risk-btn:hover {
+  cursor: pointer;
+  box-shadow: -.2rem .2rem 0 var(--bud-green);
+}
+
+#risk-btn a {
+  color: var(--chantilly-lace);
+  text-decoration: none;
+}
+
+#project-desc p:not(a) {
+  color: var(--chantilly-lace);
+  font-weight: 300;
+  margin-bottom: 1.8rem;
+}
+
+#project-desc a {
+  color: var(--chantilly-lace);
+  font-weight: 500;
+  text-decoration: none;
+  opacity: .7;
+}
+
+#project-desc a:hover {
+  color: var(--bud-green);
+  opacity: 1;
+}
+
+#home-headlines {
+  color: var(--dark-calypso-green);
+  padding-bottom: 1.8rem;
+}
+
+#home-headlines a,
+#home-care .callout a,
+#home-risk ul a {
+  color: var(--calypso-green);
+  text-decoration: none;
+}
+
+#home-headlines a:hover,
+#home-care .callout a:hover,
+#home-risk ul a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--bud-green);
+}
+
+#headlines-1 .img-fluid,
+#headlines-2 .img-fluid,
+#headlines-3 .img-fluid{
+  border: .2rem solid var(--emerald-vapor);
+  border-radius: 0 120px 0 120px;
+  -moz-border-radius: 0 120px 0 120px;
+  -webkit-border-radius: 0 120px 0 120px;
+  width: 100%;
+}
+
+#headlines-grid,
+#care-grid {
+  margin-top: 1.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #headlines-1, #headlines-2 {
+    border-right: .2rem solid var(--emerald-vapor);
+  }
+  #headlines-1, #headlines-2, #headlines-3 {
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
+  #headlines-grid {
+    margin-left:-3.6rem;
+    margin-right:-3.6rem;
+    gap:0;
+  }
+}
+
+#home-care {
+  background-color: var(--light-bud-green);
+  color: var(--dark-calypso-green);
+}
+
+#home-care .callout {
+  margin-top: 0
+}
+
+#home-care .callout.callout-style-default.callout-tip.no-icon.callout-titled {
+  height: 100%;
+}
+
+#home-care div.callout-tip.callout-style-default>.callout-header {
+  color: var(--calypso-green);
+  background: none;
+  border-radius: 0;
+  font-size: 3.6rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
+
+#home-care .callout.callout-style-default .callout-body {
+  background-color: var(--lightest-bud-green);
+  color: var(--dark-calypso-green);
+  padding: 3.6rem;
+  border-radius: 0 120px 0 120px;
+  -moz-border-radius: 0 120px 0 120px;
+  -webkit-border-radius: 0 120px 0 120px;
+  border: .2rem solid var(--emerald-vapor);
+  height: 100%;
+  position: relative;
+}
+
+#home-care .callout.callout-style-default .callout-body>:first-child {
+  padding-top: 0;
+}
+
+#home-care .callout .callout-title-container {
+  position: absolute;
+  top: -300%;
+}
+
+#home-care div.callout-tip.callout {
+  border: none;
+  border-radius: 0;
+}
+
+.bi-people-fill,
+.bi-globe-americas,
+.bi-heart-pulse-fill,
+.bi-search-heart {
+  color: var(--bud-green);
+}
+
+.flower-1 {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: var(--bunny-nose-pink);
+  border-radius: 50%;
+  margin: -1.8rem;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  aspect-ratio: 1;
+  --g:/27.676% 27.676% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+  mask: 100% 50% var(--g),85.355% 85.355% var(--g),50% 100% var(--g),14.645% 85.355% var(--g),0% 50% var(--g),14.645% 14.645% var(--g),50% 0% var(--g),85.355% 14.645% var(--g),radial-gradient(100% 100%,#000 33.409%,#0000 calc(33.409% + 1px))
+}
+
+.flower-2 {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: var(--pineapple-grove);
+  border-radius: 50%;
+  margin: -1.8rem;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  aspect-ratio: 1;
+  --g:/27.676% 27.676% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+  mask: 100% 50% var(--g),85.355% 85.355% var(--g),50% 100% var(--g),14.645% 85.355% var(--g),0% 50% var(--g),14.645% 14.645% var(--g),50% 0% var(--g),85.355% 14.645% var(--g),radial-gradient(100% 100%,#000 33.409%,#0000 calc(33.409% + 1px));
+}
+
+.flower-3 {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: var(--glowing-apricot);
+  border-radius: 50%;
+  margin: -1.8rem;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  aspect-ratio: 1;
+  --g:/27.676% 27.676% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+  mask: 100% 50% var(--g),85.355% 85.355% var(--g),50% 100% var(--g),14.645% 85.355% var(--g),0% 50% var(--g),14.645% 14.645% var(--g),50% 0% var(--g),85.355% 14.645% var(--g),radial-gradient(100% 100%,#000 33.409%,#0000 calc(33.409% + 1px));
+}
+
+.flower-4 {
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: var(--morning-glory);
+  border-radius: 50%;
+  margin: -1.8rem;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  aspect-ratio: 1;
+  --g:/27.676% 27.676% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+  mask: 100% 50% var(--g),85.355% 85.355% var(--g),50% 100% var(--g),14.645% 85.355% var(--g),0% 50% var(--g),14.645% 14.645% var(--g),50% 0% var(--g),85.355% 14.645% var(--g),radial-gradient(100% 100%,#000 33.409%,#0000 calc(33.409% + 1px));
+}
+
+#care-callout-1, #care-callout-2, #care-callout-3, #care-callout-4 {
+  margin-bottom: 3.6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #care-callout-1, #care-callout-2, #care-callout-3, #care-callout-4 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+#home-risk {
+  color: var(--dark-calypso-green);
+}
+
+#search-icon {
+  content: url(images/search-icon.svg);
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+#layers-icon {
+  content: url(images/layers.svg);
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+#risk-text ul {
+  padding-top: 1.8rem;
+  padding-left: 0;
+}
+
+#risk-text ul li {
+  font-size: 1.8rem;
+  list-style: none;
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+  text-indent: -3.2rem;
+  padding-left: 3.2rem;
+}
+
+#risk-text ul li::before {
+  content: '';
+  display: inline-block;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-image: url(images/list-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 .9rem -.3rem 0;
+}
+
+.leaflet-container {
+  border: .2rem solid var(--emerald-vapor);
+}
+
+div[id^="htmlwidget-"] {
+  font-family: "proxima-nova", sans-serif;
+}
+
+path.leaflet-interactive[stroke="#e03"] {
+  stroke: Var(--cyan); 
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border-radius: 0;
+}
+
+.leaflet-touch .leaflet-bar a:first-child {
+  border-radius: 0;
+}
+
+.leaflet-touch .leaflet-bar button {
+  border-radius: 0;
+}
+
+.leaflet-control-search .search-button {
+  background: url(images/search-icon.svg) no-repeat -2px 1px #fff;
+  border-radius: 0;
+}
+
+.leaflet-control-search .search-button:hover {
+  background: url(images/search-icon.svg) no-repeat -2px 1px #f4f4f4;
+}
+
+.leaflet-control-search .search-cancel {
+  background: url(images/close-icon.svg) no-repeat;
+  right: 30px;
+  top: 4px;
+  margin: 0;
+}
+
+.leaflet-control-layers-overlays {
+  font-size: 1.8rem;
+  max-width: 30rem;
+}
+
+.leaflet-control-layers label {
+  text-indent: -5.6rem;
+  padding-left: 5.6rem;
+}
+
+.leaflet-container .leaflet-control-search  {
+  border-radius: 0;
+}
+
+.leaflet-control-search .search-input {
+  font-size: 1.8rem;
+  border-radius: 0;
+  outline: none;
+  width: 25rem;
+}
+
+.leaflet-control-search .search-tooltip {
+  font-size: 1.8rem;
+  width: 25rem;
+  border-radius: 0;
+}
+
+.leaflet-control-search .search-tip {
+  font-size: 1.8rem;
+  border-radius: 0;
+  white-space: wrap;
+}
+
+.leaflet-retina .leaflet-control-layers-toggle {
+	background-image: 
+	url(images/layers.svg);
+	background-size: 3.8rem 3.8rem;
+	}
+
+#lyme-icon {
+  content: url(images/lyme-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#anaplasmosis-icon {
+  content: url(images/anaplasmosis-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#babesiosis-icon {
+  content: url(images/babesiosis-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#e-chaffeensis-icon {
+  content: url(images/e-chaffeensis-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#e-ewingii-icon {
+  content: url(images/e-ewingii-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#sfr-icon {
+  content: url(images/sfr-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#tularemia-icon {
+  content: url(images/tularemia-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
+
+#undetermined-icon {
+  content: url(images/undetermined-icon.svg);
+  height: 2.7rem;
+  width: 2.7rem;
+}
