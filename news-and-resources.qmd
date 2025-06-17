@@ -1,4 +1,244 @@
 ---
+page-layout: custom
 pagetitle: "News & Resources | Johns Hopkins Lyme and Tickborne Diseases Dashboard"
 title-prefix: ""
 ---
+
+:::::: {#news-header .container-fluid}
+::::: container
+:::: grid
+::: g-col-12
+<h1>News & Resources</h1>
+
+------------------------------------------------------------------------
+:::
+::::
+:::::
+::::::
+
+:::::::::: {#news .container-fluid}
+::::::::: container
+:::::::: grid
+::: g-col-12
+<h2>In the News</h2>
+:::
+
+:::: {.g-col-lg-3 .g-col-md-4 .g-col-sm-12}
+::: {#news-leaf .div}
+![](images/tick-outline-bud-green-100x100.svg) <img id="news-flower"/>
+:::
+::::
+
+::: {#news-content .g-col-lg-9 .g-col-md-8 .g-col-sm-12}
+<h3>Publisher</h3>
+
+<h2>[Article Name](){target="_blank"}</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum augue lorem, non posuere ante placerat congue. In commodo mi nec justo gravida tincidunt. Curabitur id enim placerat, semper ante in, dignissim ex. In odio felis, mollis vel dolor at, elementum efficitur magna. Fusce ullamcorper pellentesque rhoncus. Curabitur sed nibh in arcu volutpat varius at ac mi. Quisque ut lorem turpis. Sed sed ullamcorper mi. Donec condimentum massa varius ante vulputate, et rutrum libero tempus. Mauris nec aliquam justo. Proin nisi lacus, dictum at porttitor ac, lobortis non tortor. Ut semper arcu ultrices dapibus sodales.</p>
+
+<h3>Publisher</h3>
+
+<h2>[Article Name](){target="_blank"}</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum augue lorem, non posuere ante placerat congue. In commodo mi nec justo gravida tincidunt. Curabitur id enim placerat, semper ante in, dignissim ex. In odio felis, mollis vel dolor at, elementum efficitur magna. Fusce ullamcorper pellentesque rhoncus. Curabitur sed nibh in arcu volutpat varius at ac mi. Quisque ut lorem turpis. Sed sed ullamcorper mi. Donec condimentum massa varius ante vulputate, et rutrum libero tempus. Mauris nec aliquam justo. Proin nisi lacus, dictum at porttitor ac, lobortis non tortor. Ut semper arcu ultrices dapibus sodales.</p>
+
+<h3>Publisher</h3>
+
+<h2>[Article Name](){target="_blank"}</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum augue lorem, non posuere ante placerat congue. In commodo mi nec justo gravida tincidunt. Curabitur id enim placerat, semper ante in, dignissim ex. In odio felis, mollis vel dolor at, elementum efficitur magna. Fusce ullamcorper pellentesque rhoncus. Curabitur sed nibh in arcu volutpat varius at ac mi. Quisque ut lorem turpis. Sed sed ullamcorper mi. Donec condimentum massa varius ante vulputate, et rutrum libero tempus. Mauris nec aliquam justo. Proin nisi lacus, dictum at porttitor ac, lobortis non tortor. Ut semper arcu ultrices dapibus sodales.</p>
+:::
+
+::: g-col-12
+
+------------------------------------------------------------------------
+:::
+::::::::
+:::::::::
+::::::::::
+
+:::::::::: {#research .container-fluid}
+::::::::: container
+:::::::: grid
+::: g-col-12
+<h2>Latest Research</h2>
+:::
+
+:::: {.g-col-lg-3 .g-col-md-4 .g-col-sm-12}
+::: {#research-leaf .div}
+![](images/tick-outline-bud-green-100x100.svg) <img id="research-flower"/>
+:::
+::::
+
+::: {#research-content .g-col-lg-9 .g-col-md-8 .g-col-sm-12}
+<h3>Publisher</h3>
+
+<h2>[Article Name](){target="_blank"}</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum augue lorem, non posuere ante placerat congue. In commodo mi nec justo gravida tincidunt. Curabitur id enim placerat, semper ante in, dignissim ex. In odio felis, mollis vel dolor at, elementum efficitur magna. Fusce ullamcorper pellentesque rhoncus. Curabitur sed nibh in arcu volutpat varius at ac mi. Quisque ut lorem turpis. Sed sed ullamcorper mi. Donec condimentum massa varius ante vulputate, et rutrum libero tempus. Mauris nec aliquam justo. Proin nisi lacus, dictum at porttitor ac, lobortis non tortor. Ut semper arcu ultrices dapibus sodales.</p>
+
+<h3>Publisher</h3>
+
+<h2>[Article Name](){target="_blank"}</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum augue lorem, non posuere ante placerat congue. In commodo mi nec justo gravida tincidunt. Curabitur id enim placerat, semper ante in, dignissim ex. In odio felis, mollis vel dolor at, elementum efficitur magna. Fusce ullamcorper pellentesque rhoncus. Curabitur sed nibh in arcu volutpat varius at ac mi. Quisque ut lorem turpis. Sed sed ullamcorper mi. Donec condimentum massa varius ante vulputate, et rutrum libero tempus. Mauris nec aliquam justo. Proin nisi lacus, dictum at porttitor ac, lobortis non tortor. Ut semper arcu ultrices dapibus sodales.</p>
+
+<h3>Publisher</h3>
+
+<h2>[Article Name](){target="_blank"}</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum augue lorem, non posuere ante placerat congue. In commodo mi nec justo gravida tincidunt. Curabitur id enim placerat, semper ante in, dignissim ex. In odio felis, mollis vel dolor at, elementum efficitur magna. Fusce ullamcorper pellentesque rhoncus. Curabitur sed nibh in arcu volutpat varius at ac mi. Quisque ut lorem turpis. Sed sed ullamcorper mi. Donec condimentum massa varius ante vulputate, et rutrum libero tempus. Mauris nec aliquam justo. Proin nisi lacus, dictum at porttitor ac, lobortis non tortor. Ut semper arcu ultrices dapibus sodales.</p>
+:::
+
+::: g-col-12
+
+------------------------------------------------------------------------
+:::
+::::::::
+:::::::::
+::::::::::
+
+::::::::: {#resources .container-fluid}
+:::::::: container
+::::::: grid
+::: g-col-12
+<h2>Resources</h2>
+:::
+
+:::: {.g-col-lg-3 .g-col-md-4 .g-col-sm-12}
+::: {#resources-leaf .div}
+![](images/tick-outline-bud-green-100x100.svg) <img id="resources-flower"/>
+:::
+::::
+
+::: {#resources-content .g-col-lg-9 .g-col-md-8 .g-col-sm-12}
+<h2>Prevention and Symptoms</h2>
+
+<h3>Johns Hopkins Lyme Disease Research Center</h3>
+
+<ul>
+
+<li>[Lyme Disease Prevention, Tick Removal, & Health and Wellness Tips](https://www.hopkinslyme.org/lyme-disease/lyme-disease-lifestyle-options-and-prevention-measures-to-enhance-health/){target="_blank"}</li>
+
+<li>[Lyme Disease Signs & Symptoms](https://www.hopkinslyme.org/lyme-disease/lyme-disease-signs-symptoms/){target="_blank"}</li>
+
+<li>[Lyme Disease Frequently Asked Questions (FAQs)](https://www.hopkinslyme.org/lyme-disease/lyme-disease-frequently-asked-questions/){target="_blank"}</li>
+
+</ul>
+<h3>CDC</h3>
+
+<ul>
+
+<li>[Preventing Tick Bites](https://www.cdc.gov/ticks/prevention/index.html){target="_blank"}</li>
+
+<li>[What to Do After a Tick Bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html){target="_blank"}</li>
+
+</ul>
+
+
+<h2>US Map Resources</h2>
+
+<h3>CDC</h3>
+
+<ul>
+
+<li>[Geographic Distribution of Tickborne Disease Cases](https://www.cdc.gov/ticks/data-research/facts-stats/geographic-distribution-of-tickborne-disease-cases.html){target="_blank"}</li>
+
+<li>[Where Ticks Live](https://www.cdc.gov/ticks/about/where-ticks-live.html){target="_blank"}</li>
+
+<li>[Tick Bite Data Tracker](https://www.cdc.gov/ticks/data-research/facts-stats/tick-bite-data-tracker.html){target="_blank"}</li>
+
+</ul>
+
+<h3>Companion Animal Parasite Council</h3>
+
+<ul>
+
+<li>[Parasite Prevalence Maps](https://capcvet.org/maps){target="_blank"}</li>
+
+</ul>
+
+<h3>Maine Tracking Network</h3>
+
+<ul>
+
+<li>[Tickborne Diseases](https://data.mainepublichealth.gov/tracking/tickborne){target="_blank"}</li>
+
+</ul>
+
+<h3>SUNY Upstate Medical University</h3>
+
+<ul>
+
+<li>[tickMAP](https://nyticks.org/tickmap){target="_blank"}</li>
+
+</ul>
+
+<h3>University of Rhode Island</h3>
+
+<ul>
+
+<li>[Field Guide to Ticks](https://web.uri.edu/tickencounter/fieldguide/){target="_blank"}</li>
+
+</ul>
+
+<h3>Bay Area Lyme Foundation</h3>
+
+<ul>
+
+<li>[Citizen Science Maps](https://www.bayarealyme.org/our-research/citizen-science-free-tick-testing-program/#maps){target="_blank"}</li>
+
+</ul>
+
+<h3>California Department of Public Health</h3>
+
+<ul>
+
+<li>[Lyme Disease in California](https://storymaps.arcgis.com/stories/f64d0c19a3ab42cf90e8ce38397e96e0){target="_blank"}</li>
+
+</ul>
+
+<h2>Canadian Map Resources</h2>
+
+<h3>Public Health Agency of Canada</h3>
+
+<ul>
+
+<li>[Tick-borne disease surveillance: Maps](https://health-infobase.canada.ca/zoonoses/ticks/maps.html){target="_blank"}</li>
+
+<li>[Lyme disease risk areas](https://www.canada.ca/en/public-health/services/diseases/lyme-disease/surveillance-lyme-disease.html#a4){target="_blank"}</li>
+
+</ul>
+
+<h3>Companion Animal Parasite Council</h3>
+
+<ul>
+
+<li>[Parasite Prevalence Maps](https://capcvet.org/maps){target="_blank"}</li>
+
+</ul>
+
+<h3>eTick</h3>
+
+<ul>
+
+<li>[Public Tick Map](https://www.etick.ca/etickapp/en/ticks/public/map){target="_blank"}</li>
+
+</ul>
+
+<h2>European Map Resources</h2>
+
+<h3>European Centre for Disease Prevention and Control</h3>
+
+<ul>
+
+<li>[Tick maps](https://www.ecdc.europa.eu/en/disease-vectors/surveillance-and-disease-data/tick-maps){target="_blank"}</li>
+
+<li>[Surveillance Atlas of Infectious Diseases (Lyme Neuroborreliosis)](https://atlas.ecdc.europa.eu/public/index.aspx){target="_blank"}</li>
+
+</ul>
+
+:::
+:::::::
+::::::::
+:::::::::

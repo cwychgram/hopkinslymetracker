@@ -1,10 +1,157 @@
 ---
+page-layout: custom
 pagetitle: "About | Johns Hopkins Lyme and Tickborne Diseases Dashboard"
 title-prefix: ""
 ---
 
-About this site
+:::::::: {#about-us-header .container-fluid}
+::::::: container
+:::::: grid
+::::: g-col-12
+::: {#about-us-title .div}
+<h1>[Johns Hopkins]{style="font-weight:300;"} [Lyme and Tickborne Diseases]{style="color:var(--bud-green);font-family:'proxima-nova', sans-serif;"} [Dashboard]{style="font-weight:300;"}</h1>
+:::
 
-```{r}
-1 + 1
-```
+::: {#about-us-leaf .div}
+<h1>About Us</h1>
+:::
+:::::
+::::::
+:::::::
+::::::::
+
+::::::::::::: {#about-us-mission .container-fluid}
+:::::::::::: container
+:::: grid
+::: g-col-12
+<h1>Harnessing the Power of Geography in Tickborne Diseases Research</h1>
+:::
+::::
+
+::::::::: {#mission-grid .grid}
+:::: {#mission-1 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+<h2>Mission</h2>
+
+::: {#mission-1-icon .div}
+![](images/mission-map.svg){style="height:15rem;width:15rem;"}
+:::
+
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.</p>
+::::
+
+:::: {#mission-2 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+<h2>Vision</h2>
+
+::: {#mission-2-icon .div}
+![](images/mission-binoculars.svg){style="height:15rem;width:15rem;"}
+:::
+
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.</p>
+::::
+
+:::: {#mission-3 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+<h2>Values</h2>
+
+::: {#mission-3-icon .div}
+![](images/mission-one-health.svg){style="height:15rem;width:15rem;"}
+:::
+
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.</p>
+::::
+:::::::::
+::::::::::::
+:::::::::::::
+
+:::::::::::::: {#about-us-team .container-fluid}
+::::::::::::: container
+:::: grid
+::: g-col-12
+<h2>Our Team</h2>
+:::
+::::
+
+:::::::::: {#team-grid .grid}
+::: {#team-1 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+![](images/curriero.jpg)
+
+<h2>Frank C. Curriero, PhD</h2>
+
+<h3>Director, [Johns Hopkins Spatial Science for Public Health Center](https://publichealth.jhu.edu/spatial-science-for-public-health-center){target="_blank"}</h3>
+
+<p style="margin-top:1.8rem;">
+
+Dr. Curriero is a Professor in the Department of Epidemiology with a joint appointment in the Department of Biostatistics at the Johns Hopkins Bloomberg School of Public Health. Dr. Curriero's research focus is on the development and application of spatial and spatial-temporal statistical methods in the public health sciences. Much of his current work involves translating methods of spatial science involving spatial data, GIS and spatial statistics for building research capacity in wide ranging health research applications.
+
+</p>
+:::
+
+::: {#team-2 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+![](images/aucott.jpg)
+
+<h2>John Aucott, MD</h2>
+
+<h3>Director, [Johns Hopkins Medicine Lyme Disease Research Center](https://www.hopkinslyme.org/){target="_blank"}</h3>
+
+<p style="margin-top:1.8rem;">
+
+Dr. Aucott is an Associate Professor in the Department of Medicine and is the Director of the School of Medicine Lyme Disease Clinical Research Center. Dr. Aucott’s research focus is on the characterization and elucidation of the biologic basis of persistent symptoms in Lyme disease. The landmark SLICE studies have enrolled hundreds of patients with associated biospecimens that are unique in the field. His work includes collaborations on new diagnostic test development, discovery of biomarkers, and imaging tools for measuring persistent disease and developing the framework for future treatment trials.
+
+</p>
+:::
+
+::: {#team-3 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+![](images/baumgarth.jpg)
+
+<h2>Nicole Baumgarth, DVM, PhD</h2>
+
+<h3>Director, [Johns Hopkins Lyme and Tickborne Diseases Research and Education Institute](https://publichealth.jhu.edu/giving/get-inspired/johns-hopkins-lyme-and-tickborne-diseases-research-and-education-institute){target="_blank"}</h3>
+
+<p style="margin-top:1.8rem;">
+
+Dr. Baumgarth is a Bloomberg Distinguished Professor in the Department of Molecular Microbiology and Immunology and the inaugural Director of the Lyme and Tickborne Diseases Research and Education Institute. She leads efforts of the Bloomberg School of Public Health to eliminate threats from tickborne diseases, such as Lyme disease. As an immunologist, she studies why some immune responses to infections are successful and others are not.
+
+</p>
+:::
+
+::: {.g-col-lg-2 .g-col-md-2 .g-col-sm-0}
+:::
+
+::: {#team-4 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+![](images/rebman.jpg)
+
+<h2>Alison Rebman, MPH</h2>
+
+<h3>Director for Clinical and Epidemiological Research, [Johns Hopkins Medicine Lyme Disease Research Center](https://www.hopkinslyme.org/){target="_blank"}</h3>
+:::
+
+::: {#team-5 .g-col-lg-4 .g-col-md-4 .g-col-sm-12}
+![](images/wychgram.jpg)
+
+<h2>Cara Wychgram, MPP</h2>
+
+<h3>Sr. Research Data Analyst, [Johns Hopkins Spatial Science for Public Health Center](https://publichealth.jhu.edu/spatial-science-for-public-health-center){target="_blank"}</h3>
+:::
+
+::: {.g-col-lg-2 .g-col-md-2 .g-col-sm-0}
+:::
+::::::::::
+:::::::::::::
+::::::::::::::
+
+:::::: {#about-pubs .container-fluid}
+::::: container
+:::: grid
+::: g-col-12
+<h2>Dashboard-Related Publications</h2>
+
+<ul>
+
+<li>Curriero FC, Wychgram C, Rebman AW, Corrigan AE, Kvit A, Shields T, et al. (2021) [The Lyme and Tickborne Disease Dashboard: A map-based resource to promote public health awareness and research collaboration]{style="font-weight:700;"}. PLoS ONE 16(12): e0260122. [https://doi.org/10.1371/journal.pone.0260122](https://doi.org/10.1371/journal.pone.0260122){target="_blank"}</li>
+
+<li>Wychgram C, Aucott JN, Rebman AW, Curriero FC (2024) [Identifying the geographic leading edge of Lyme disease in the United States with internet searches: A spatiotemporal analysis of Google Health Trends data]{style="font-weight:700;"}. PLoS ONE 19(11): e0312277. [https://doi.org/10.1371/journal.pone.0312277](https://doi.org/10.1371/journal.pone.0312277){target="_blank"}</li>
+
+</ul>
+:::
+::::
+:::::
+::::::
